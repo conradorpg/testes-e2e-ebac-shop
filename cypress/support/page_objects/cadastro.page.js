@@ -2,15 +2,15 @@ const { faker } = require('@faker-js/faker')
 
 class EndToEndPage {
 
-    realizarCompraCompleta(firstName, lastName, jobTitle, email){
-        cy.get('#primary-menu > .menu-item-629 > a').click()
-        cy.get('.post-3964 > .product-block > .caption > .meta > .infor > .name > a').click()
-        cy.get('.button-variable-item-L').click()
-        cy.get('.button-variable-item-Green').click()
-        cy.get('.plus').click().click().click()
-        cy.get('.single_add_to_cart_button').click()
-        cy.get('.dropdown-toggle > .text-skin > .icon-basket').click()
-        cy.get('#cart > .dropdown-menu > .widget_shopping_cart_content > .mini_cart_content > .mini_cart_inner > .mcart-border > .buttons > .checkout').click()
+    Cadastro(firstName, lastName, jobTitle, email){
+        // cy.get('#primary-menu > .menu-item-629 > a').click()
+        // cy.get('.post-3964 > .product-block > .caption > .meta > .infor > .name > a').click()
+        // cy.get('.button-variable-item-L').click()
+        // cy.get('.button-variable-item-Green').click()
+        // cy.get('.plus').click().click().click()
+        // cy.get('.single_add_to_cart_button').click()
+        // cy.get('.dropdown-toggle > .text-skin > .icon-basket').click()
+        // cy.get('#cart > .dropdown-menu > .widget_shopping_cart_content > .mini_cart_content > .mini_cart_inner > .mcart-border > .buttons > .checkout').click()
         
         
         cy.get('#billing_first_name').type(faker.name.firstName())
