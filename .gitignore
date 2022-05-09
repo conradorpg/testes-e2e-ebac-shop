@@ -7,6 +7,6 @@ yarn-error.log*
 lerna-debug.log*
 
 # Diretorios
-_node_modules_/
+node_modules/
 screenshots/
 videos/
