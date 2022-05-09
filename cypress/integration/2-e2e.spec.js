@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import EndToEndPage from '../support/page_objects/cadastro.page'
+import EndToEndPage from '../support/page_objects/e2e.page'
 const configProduto = require('../fixtures/produto.json')
 const dadosCadastro = require('../fixtures/cadastro.json')
 

@@ -1,6 +1,6 @@
 const { faker } = require('@faker-js/faker')
 
-class EndToEndPage {
+class CadastroPage {
 
     Cadastro(firstName, lastName, jobTitle, email){
         // cy.get('#primary-menu > .menu-item-629 > a').click()
@@ -35,4 +35,4 @@ class EndToEndPage {
 
 }
 
-export default new EndToEndPage()
+export default new CadastroPage()
